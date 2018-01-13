@@ -4,9 +4,7 @@ while true
 
   if request == 'BYE'
     break
-  end
-
-  if request == request.upcase
+  elsif request == request.upcase
     year = rand(21) + 1930
     puts 'NO, NOT SINCE ' + year.to_s + '!'
     puts
